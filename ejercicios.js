@@ -5,6 +5,7 @@
 // ============================================
 // SECCIÃ“N 1: VARIABLES Y TIPOS DE DATOS (10 puntos)
 // ============================================
+ // PROBANDO EJERCICIO 1 QUE FUNCIONE DYLAN MATATE -JJ
 /**
  * Ejercicio 1.1: Declarar variables (2 puntos)
  * Crea tres variables con tu informaciÃ³n personal
