@@ -74,7 +74,7 @@ function celsiusAFahrenheit(celsius) {
 function parOImpar(numero) {
   // TODO: Usa el operador % (mÃ³dulo) para determinar si es par o impar
   // Pista: Un nÃºmero es par si numero % 2 === 0
-  return "par";
+  return "impar";
 }
 
 /**
@@ -272,7 +272,7 @@ function obtenerFila(matriz, indiceFila) {
  */
 function obtenerColumna(matriz, indiceColumna) {
   // TODO: Extrae todos los elementos de la columna indicada
-  const columna = [];
+  const columna = [  ];
   return columna;
 }
 
