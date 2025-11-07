@@ -15,7 +15,7 @@ function miInformacion() {
   // TODO: Declara las variables nombre, edad y carrera
   // Ejemplo: const nombre = "Juan";
   
-  const nombre = "Dylan Mosqueda";
+  const nombre = "Dylan Mosqueda Lugo";
   const edad = 18;
   const carrera = "TSU";
   
@@ -31,10 +31,10 @@ function miInformacion() {
 function operacionesBasicas(a, b) {
   // TODO: Calcula suma, resta, multiplicaciÃ³n y divisiÃ³n de a y b
   
-  const suma = 0;
-  const resta = 0;
-  const multiplicacion = 0;
-  const division = 0;
+  const suma = a + b;
+  const resta = a - b;
+  const multiplicacion = a * b;
+  const division = a / b;
   
   return { suma, resta, multiplicacion, division };
 }
@@ -47,7 +47,7 @@ function operacionesBasicas(a, b) {
  */
 function areaRectangulo(base, altura) {
   // TODO: Calcula y retorna el Ã¡rea (base * altura)
-  return 0;
+  return base * altura;
 }
 
 /**
@@ -59,7 +59,7 @@ function areaRectangulo(base, altura) {
  */
 function celsiusAFahrenheit(celsius) {
   // TODO: Implementa la conversiÃ³n
-  return 0;
+  return celsius * 9/5 + 32;
 }
 
 // ============================================
@@ -74,7 +74,7 @@ function celsiusAFahrenheit(celsius) {
 function parOImpar(numero) {
   // TODO: Usa el operador % (mÃ³dulo) para determinar si es par o impar
   // Pista: Un nÃºmero es par si numero % 2 === 0
-  return "";
+  return "impar";
 }
 
 /**
@@ -84,7 +84,7 @@ function parOImpar(numero) {
  */
 function evaluarNota(nota) {
   // TODO: Implementa la lÃ³gica con if/else
-  return "";
+  return " if nota >= 60 return 'Aprobado'; else return 'Reprobado';";
 }
 
 /**
@@ -96,7 +96,7 @@ function evaluarNota(nota) {
  */
 function mayorDeTres(a, b, c) {
   // TODO: Encuentra y retorna el mayor de los tres nÃºmeros
-  return 0;
+  return "mayor";
 }
 
 /**
@@ -106,7 +106,7 @@ function mayorDeTres(a, b, c) {
  */
 function clasificarEdad(edad) {
   // TODO: Implementa la clasificaciÃ³n con if/else if/else
-  return "";
+  return "if edad < 18 return 'menor'; else if edad > 64 return 'mayor'; else return 'adulto';";
 }
 
 // ============================================
@@ -272,7 +272,7 @@ function obtenerFila(matriz, indiceFila) {
  */
 function obtenerColumna(matriz, indiceColumna) {
   // TODO: Extrae todos los elementos de la columna indicada
-  const columna = [  ];
+  const columna = [];
   return columna;
 }
 
