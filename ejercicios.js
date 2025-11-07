@@ -96,7 +96,7 @@ function evaluarNota(nota) {
  */
 function mayorDeTres(a, b, c) {
   // TODO: Encuentra y retorna el mayor de los tres nÃºmeros
-  return "mayor";
+  return "mayor de tres";
 }
 
 /**
@@ -106,6 +106,7 @@ function mayorDeTres(a, b, c) {
  */
 function clasificarEdad(edad) {
   // TODO: Implementa la clasificaciÃ³n con if/else if/else
+    // test
   return "if edad < 18 return 'menor'; else if edad > 64 return 'mayor'; else return 'adulto';";
 }
 
