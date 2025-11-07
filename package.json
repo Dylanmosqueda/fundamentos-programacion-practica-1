@@ -2,12 +2,6 @@
   "name": "fundamentos-programacion",
   "version": "1.0.0",
   "description": "Práctica de fundamentos de programación - Desarrollo de Software y Negocios Digitales",
-  "main": "ejercicios.js",
-  "scripts": {
-    "test": "jest --verbose --bail --maxWorkers=1",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
-  },
   "keywords": [
     "javascript",
     "fundamentos",
@@ -15,8 +9,23 @@
     "matrices",
     "algebra"
   ],
-  "author": "",
+  "homepage": "https://github.com/Dylanmosqueda/fundamentos-programacion-practica-1#readme",
+  "bugs": {
+    "url": "https://github.com/Dylanmosqueda/fundamentos-programacion-practica-1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dylanmosqueda/fundamentos-programacion-practica-1.git"
+  },
   "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "ejercicios.js",
+  "scripts": {
+    "test": "jest --verbose --bail --maxWorkers=1",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
   "devDependencies": {
     "jest": "^29.7.0"
   },

@@ -15,7 +15,7 @@ function miInformacion() {
   // TODO: Declara las variables nombre, edad y carrera
   // Ejemplo: const nombre = "Juan";
   
-  const nombre = "Dylan Mosqueda Lugo";
+  const nombre = "Dylan Mosqueda";
   const edad = 18;
   const carrera = "TSU";
   
@@ -106,7 +106,7 @@ function mayorDeTres(a, b, c) {
  */
 function clasificarEdad(edad) {
   // TODO: Implementa la clasificaciÃ³n con if/else if/else
-    // test
+    
   return "if edad < 18 return 'menor'; else if edad > 64 return 'mayor'; else return 'adulto';";
 }
 
